@@ -1,4 +1,3 @@
-import "babel-polyfill"
 import "gm-base64"
 import Promise from "bluebird"
 import gm from "gm"
