@@ -224,7 +224,6 @@ export default class PDF2Pic {
       ? await this.getPage(pdf_path)
       : pageCount
 
-      /** not sure yet if this would work */
     pages = pages.map(page => {
       return this.convert(pdf_path, page)
     })
